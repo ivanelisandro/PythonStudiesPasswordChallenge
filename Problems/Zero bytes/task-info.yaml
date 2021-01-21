@@ -1,0 +1,14 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # work with this variable
+    zero_bytes = ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8597#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sat, 16 Jan 2021 02:40:37 UTC
+record: -1
