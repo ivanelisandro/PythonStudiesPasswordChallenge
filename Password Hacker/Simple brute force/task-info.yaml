@@ -126,5 +126,8 @@ files:
         test.stop_server()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/80/stages/443/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 04 Feb 2021 23:20:30 UTC
 record: -1

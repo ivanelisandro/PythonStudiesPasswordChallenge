@@ -3,14 +3,14 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/255258/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Wed, 03 Feb 2021 22:09:02 UTC
+update_date: Thu, 04 Feb 2021 21:47:23 UTC
 stages:
 - id: 442
   step: 7216
   is_completed: true
 - id: 443
   step: 7217
-  is_completed: false
+  is_completed: true
 - id: 444
   step: 7218
   is_completed: false
@@ -22,14 +22,6 @@ stages:
   is_completed: false
 topics:
   0:
-  - title: PEP 8
-    theory_id: 5879
-  - title: Comments
-    theory_id: 6081
-  - title: Avoiding bad comments
-    theory_id: 6440
-  - title: Naming variables
-    theory_id: 5885
   - title: Binary numbers
     theory_id: 5544
   - title: Hexadecimal numbers
@@ -58,18 +50,18 @@ topics:
     theory_id: 5208
   - title: Multi-line programs
     theory_id: 5233
-  - title: Unicode
-    theory_id: 7899
+  - title: PEP 8
+    theory_id: 5879
+  - title: Comments
+    theory_id: 6081
+  - title: Avoiding bad comments
+    theory_id: 6440
+  - title: Naming variables
+    theory_id: 5885
   - title: Taking input
     theory_id: 5913
   - title: Program with numbers
     theory_id: 5872
-  - title: List
-    theory_id: 5979
-  - title: Indexes
-    theory_id: 6189
-  - title: Tuple
-    theory_id: 7462
   - title: Invoking a function
     theory_id: 5891
   - title: Declaring a function
@@ -84,10 +76,6 @@ topics:
     theory_id: 6065
   - title: Load module
     theory_id: 6019
-  - title: Command line arguments
-    theory_id: 7981
-  - title: Argparse module
-    theory_id: 11389
   - title: Files in Python
     theory_id: 8691
   - title: Reading files
@@ -96,6 +84,12 @@ topics:
     theory_id: 8334
   - title: Context manager
     theory_id: 8702
+  - title: Command line arguments
+    theory_id: 7981
+  - title: Argparse module
+    theory_id: 11389
+  - title: Unicode
+    theory_id: 7899
   - title: Socket module
     theory_id: 8670
   - title: Basic data types
@@ -106,10 +100,16 @@ topics:
     theory_id: 5859
   - title: Type casting
     theory_id: 6224
+  - title: List
+    theory_id: 5979
+  - title: Indexes
+    theory_id: 6189
   - title: Boolean logic
     theory_id: 6025
   - title: Comparisons
     theory_id: 5920
+  - title: Tuple
+    theory_id: 7462
   - title: Bytes basics
     theory_id: 8061
   - title: Creating bytes
@@ -117,8 +117,6 @@ topics:
   1:
   - title: IDE
     theory_id: 10996
-  - title: PyCharm basics
-    theory_id: 6193
   - title: Scopes
     theory_id: 6322
   - title: While loop
@@ -127,8 +125,6 @@ topics:
     theory_id: 6302
   - title: Lambda functions
     theory_id: 7092
-  - title: List comprehension
-    theory_id: 6315
   - title: Map and filter
     theory_id: 8122
   - title: Custom generators
@@ -137,25 +133,29 @@ topics:
     theory_id: 8479
   - title: Itertools module
     theory_id: 8487
+  - title: PyCharm basics
+    theory_id: 6193
+  - title: List comprehension
+    theory_id: 6315
   2:
-  - title: Slicing
-    theory_id: 6177
-  - title: Dictionary
-    theory_id: 6481
   - title: Arguments
     theory_id: 7248
-  - title: Operations with list
-    theory_id: 6031
-  - title: Dictionary methods
-    theory_id: 9008
   - title: Quotes and multi-line strings
     theory_id: 5814
   - title: Escape sequences
     theory_id: 7130
   - title: String formatting
     theory_id: 6037
+  - title: Slicing
+    theory_id: 6177
+  - title: Dictionary
+    theory_id: 6481
+  - title: Operations with list
+    theory_id: 6031
   - title: Basic string methods
     theory_id: 6842
+  - title: Dictionary methods
+    theory_id: 9008
   - title: Split and join
     theory_id: 6972
   3:
@@ -163,14 +163,6 @@ topics:
     theory_id: 7929
   - title: Program execution
     theory_id: 6047
-  - title: Errors
-    theory_id: 6052
-  - title: JSON
-    theory_id: 6854
-  - title: Exceptions
-    theory_id: 6042
-  - title: Operations with dictionary
-    theory_id: 11096
   - title: Default arguments
     theory_id: 10295
   - title: Args
@@ -181,16 +173,24 @@ topics:
     theory_id: 6057
   - title: Packages
     theory_id: 6384
-  - title: Pip
-    theory_id: 6230
+  - title: Errors
+    theory_id: 6052
+  - title: Exceptions
+    theory_id: 6042
+  - title: JSON
+    theory_id: 6854
   - title: Json module
     theory_id: 8999
+  - title: Pip
+    theory_id: 6230
   - title: Built-in exceptions
     theory_id: 11680
   - title: Exception handling
     theory_id: 6270
   - title: Identity testing
     theory_id: 8077
+  - title: Operations with dictionary
+    theory_id: 11096
   - title: Objects in Python
     theory_id: 9262
   4:
