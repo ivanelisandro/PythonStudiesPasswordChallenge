@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import pandas as pd
+
+    def drop_record(olympics):
+        pass
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10428#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 05 Mar 2021 22:34:44 UTC
+record: -1
