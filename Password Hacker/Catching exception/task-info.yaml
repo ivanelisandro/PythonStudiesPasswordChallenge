@@ -2217,12 +2217,9 @@ files:
 - name: hacking/logins.txt
   visible: true
   learner_created: true
-- name: test1.txt
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/projects/80/stages/445/implement#comment
 status: Solved
 feedback:
   message: Congratulations!
   time: Wed, 10 Mar 2021 00:52:28 UTC
-record: -1
+record: 4

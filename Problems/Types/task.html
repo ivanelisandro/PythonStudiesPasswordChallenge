@@ -2,9 +2,15 @@
 <html>
  <head></head>
  <body>
-  <p>Let's say there's a program <code class="java">process_four_numbers.py</code>. It takes exactly four arguments, all of which are numerical.</p> 
-  <p>Inside this script, the first thing to do is to get the arguments from the command line. This is already done in the code and, in particular, the <code class="java">sys</code> module is already imported.</p> 
-  <p>Your task is to access <strong>the arguments</strong> and print them as a list. Note that all arguments must be <strong>integers</strong>!</p>
+  <p>Let's say there's a script <code class="java">process_four_numbers.py</code>. It takes exactly four arguments, all of which are numerical. It may be run from the command line like this: <code class="java">python3 process_four_numbers.py 25 17 808 9</code></p> 
+  <p>Inside the program itself, the arguments are firstly read from the command line into the list <code class="java">sys.argv</code>. You don't see that part of the script but you have access to <code class="java">sys.argv</code> (see below).</p> 
+  <p>Your task is to access <strong>the arguments</strong> and print them as a list. Note that all arguments must be <strong>integers</strong>!</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-652').style.display='inline'"> Hint </button> </p>
+  <div id="hint-652" style="display:none;">
+   Remeber, what does 
+   <code class="java">sys.argv</code> store as the first element? And what type do all its elements have?
+  </div>
+  <p></p>
  </body>
 </html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
 <b>Caution</b><br><br>
